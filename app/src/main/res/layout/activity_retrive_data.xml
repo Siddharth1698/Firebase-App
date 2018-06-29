@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".RetriveData">
 
-    <TextView
-        android:id="@+id/valueView"
-        android:layout_width="344dp"
-        android:layout_height="31dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="157dp"
-        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
 </RelativeLayout>
