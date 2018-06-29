@@ -17,12 +17,22 @@
         android:text="add" />
 
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="343dp"
+        android:id="@+id/keytext"
+        android:layout_width="342dp"
         android:layout_height="66dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/addString"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="116dp"
+        android:hint="key" />
+
+    <EditText
+        android:id="@+id/valuetext"
+        android:layout_width="342dp"
+        android:layout_height="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/addString"
+        android:layout_marginTop="202dp"
         android:ems="10"
+        android:hint="value"
         android:inputType="textPersonName" />
 </RelativeLayout>
